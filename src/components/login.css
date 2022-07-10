@@ -1,0 +1,122 @@
+body{
+  background-image: linear-gradient(to right, rgb(197, 6, 223) , rgb(255, 0, 128));
+  
+}
+#box{
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+#container{
+        background-color: white;
+        width:500px;
+        box-shadow: rgba(0, 0, 0, 0.562) 0px 5px 25px;
+}
+.App {
+    
+    text-align: center;
+  }
+.btns{
+    display: flex;
+    justify-content: center;
+}
+button{
+  background-color: white;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 13px 70px;
+  outline: none;
+  border:2px rgba(0, 0, 0, 0.158) solid;
+  border-radius: 4px;
+  
+  
+}
+
+.inp{
+  display: flex;
+  justify-content: center;
+  margin: 30px 0px;
+  
+}
+.inp input{
+  font-size: 18px;
+  padding: 13px 22px;
+  width:370px;
+  border:2px rgba(0, 0, 0, 0.253) solid;
+  border-radius: 4px;
+  outline: none;
+  box-shadow: 0px 1px rgba(0, 0, 0, 0.253);
+}
+.inpp{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  
+}
+.inpp input{
+  font-size: 18px;
+  padding: 13px 22px;
+  width:370px;
+  border:2px rgba(0, 0, 0, 0.253) solid;
+  border-radius: 4px;
+  outline: none;
+  box-shadow: 0px 1px rgba(0, 0, 0, 0.253);
+}
+h4{
+  color: rgb(238, 1, 159);
+  margin-left:40px;
+  margin-top: 8px;
+  letter-spacing: 1.2px;
+}
+#login{
+  width:413px;
+}
+button:hover{
+ /* background-image: linear-gradient(to right, rgb(197, 6, 223) , rgb(255, 0, 128));
+  color: white;
+  border: none; 
+  transition: 0.1s; */
+  cursor: pointer;
+}
+.link{
+  text-decoration: none;
+  color: black;
+}
+
+#last{
+  display: flex;
+  justify-content: center;
+}
+p{
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-size: 17px;
+}
+span{
+  color: rgb(238, 1, 159);
+  
+}
+.active{
+  background-image: linear-gradient(to right, rgb(197, 6, 223) , rgb(255, 0, 128));
+}
+@media screen and (max-width: 500px) {
+  #container{
+    width: 90vw;
+}
+button{
+  width:40vw;
+  padding:12px 0;
+}
+.inp input{
+  width: 70vw;
+}
+.inpp input{
+  width: 70vw;
+}
+#login{
+  width:80vw;
+}
+h4{
+  margin-left: 5vw;
+}
+}
